@@ -10,9 +10,9 @@ public class JDBCconnection {
 		
 	//	String query = "select * from players";
 	//	String query = "insert into players values ('Goretzka', 'Leon', 8)";
-		int shirtNumber = 11;
-		String lastName = "Coman";
-		String firstName = "Kingsley";
+		int shirtNumber = 42;
+		String lastName = "Musiala";
+		String firstName = "Jamal";
 		String query = "insert into players values (?,?,?)";
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");                        // in detail: @ youtube "class forname" telusko
