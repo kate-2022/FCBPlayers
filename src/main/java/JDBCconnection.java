@@ -1,17 +1,4 @@
 import java.sql.*;
-//Java Database Connectivity
-
-/*
-* 1. import --> java.sql.*;
-* 2. load and register the driver --> com.mysql.jdbc.Driver
-* 3. create connection
-* 4. create a statement
-* 5. execute the query
-* 6. process the results
-* 7. close
-*/
-
-//DAO = data access object
 
 public class JDBCconnection {
 
