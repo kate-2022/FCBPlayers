@@ -13,7 +13,6 @@ public class JDBCconnection {
 		int shirtNumber = 11;
 		String lastName = "Coman";
 		String firstName = "Kingsley";
-	//  String query = "insert into players values (" + "'" + lastName + "',"+ "'" + firstName + "'," + shirtNumber +  " )";
 		String query = "insert into players values (?,?,?)";
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");                        // in detail: @ youtube "class forname" telusko
