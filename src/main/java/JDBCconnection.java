@@ -17,7 +17,7 @@ public class JDBCconnection {
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");                        // in detail: @ youtube "class forname" telusko
 		Connection con = DriverManager.getConnection(url, uname,pass);
-		PreparedStatement st = con.prepareStatement(query);
+		PreparedStatement pst = con.prepareStatement(query);
 		st.setString(1,lastName);
 		st.setString(2,firstName);
 		st.setInt(3,shirtNumber);
@@ -28,7 +28,7 @@ public class JDBCconnection {
 		                                        // DQL= data query language: fetch data from data base (executeQuery(query) 
 		
 		
-		int count = st.executeUpdate();    // count = number of rows that are effected                                     
+		int count = pst.executeUpdate();    // count = number of rows that are effected                                     
 		
 		System.out.println(count + " row/s affected");
 		
