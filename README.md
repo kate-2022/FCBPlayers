@@ -1,2 +1,3 @@
 # FCBPlayers
-this project is ongoing.. :)
+
+Thanks to excellent instructions by Navin Reddy :)
